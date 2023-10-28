@@ -1,0 +1,7 @@
+name: img-to-ascii
+dependencies:
+  - python=3.11
+  - pip
+  - click=8.1
+  - numpy=1.26
+  - pillow=10.0
