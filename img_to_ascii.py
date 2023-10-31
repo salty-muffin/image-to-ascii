@@ -3,8 +3,6 @@ import math
 import numpy as np
 from PIL import Image, ImageOps
 
-gray_ramp = "$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/|()1{}[]?-_+~<>i!lI;:,\"^`'. "
-
 
 def get_grayscale_char(gray_scale: int, map: str) -> str:
     return map[math.ceil((len(map) - 1) * gray_scale / 255)]

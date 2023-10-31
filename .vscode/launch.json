@@ -19,7 +19,7 @@
             "program": "img_to_ascii.py",
             "args": [
                 "--file=out\\page_01.txt",
-                "--width=82",
+                "--width=108",
                 "--height=70",
                 // "--invert",
                 "in\\page_01.jpg"
